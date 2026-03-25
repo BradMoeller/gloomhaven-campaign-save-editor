@@ -7,6 +7,10 @@ Pick the wrong card when leveling up in a Gloomhaven campaign? Use this cross-pl
 
 `gloomhaven_editor.py` is a small desktop app for editing Gloomhaven digital campaign save files. It reads the game's `.dat` save format directly, detects the characters in the save, and lets you update each character's owned ability cards without hand-editing binary data.
 
+## Quick Download
+
+[Download `gloomhaven_editor.py`](https://raw.githubusercontent.com/BradMoeller/gloomhaven-campaign-save-editor/main/gloomhaven_editor.py)
+
 ## Features
 
 - Opens Gloomhaven digital campaign `.dat` save files
@@ -22,6 +26,77 @@ Pick the wrong card when leveling up in a Gloomhaven campaign? Use this cross-pl
 
 - Python 3
 - Tkinter
+
+If Python is not installed yet, use one of the options below.
+
+### Install Python
+
+#### Windows
+
+Download and install Python 3 from:
+
+```text
+https://www.python.org/downloads/windows/
+```
+
+During install, enable:
+
+- `Add python.exe to PATH`
+
+Then verify:
+
+```powershell
+py --version
+```
+
+If `py` is unavailable, try:
+
+```powershell
+python --version
+```
+
+#### macOS
+
+Option 1: install Python 3 from python.org:
+
+```text
+https://www.python.org/downloads/macos/
+```
+
+Option 2: install with Homebrew:
+
+```bash
+brew install python
+```
+
+Then verify:
+
+```bash
+python3 --version
+```
+
+#### Linux
+
+Most Linux distributions already include Python 3. If not, install it with your package manager.
+
+Examples:
+
+```bash
+# Ubuntu / Debian
+sudo apt install python3
+
+# Fedora
+sudo dnf install python3
+
+# Arch
+sudo pacman -S python
+```
+
+Then verify:
+
+```bash
+python3 --version
+```
 
 Tkinter is bundled with most Python installers on Windows and macOS. On Linux, you may need to install it separately.
 
