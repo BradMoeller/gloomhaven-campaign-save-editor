@@ -7,9 +7,9 @@ Pick the wrong card when leveling up in a Gloomhaven campaign? Use this cross-pl
 
 `gloomhaven_editor.py` is a small desktop app for editing Gloomhaven digital campaign save files. It reads the game's `.dat` save format directly, detects the characters in the save, and lets you update each character's owned ability cards without hand-editing binary data.
 
-## Quick Download
+## Quick Download (right click & save)
 
-[Download `gloomhaven_editor.py`](https://raw.githubusercontent.com/BradMoeller/gloomhaven-campaign-save-editor/main/gloomhaven_editor.py)
+[Download `gloomhaven_editor.py` ](https://raw.githubusercontent.com/BradMoeller/gloomhaven-campaign-save-editor/main/gloomhaven_editor.py)
 
 ## Features
 
